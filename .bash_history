@@ -77,3 +77,75 @@ gnome-terminal --title="Min terminal"
 dmidecode | grep -A3 '^System Information'
 sudo dmidecode | grep -A3 '^System Information'
 sudo dmidecode
+sudo apt updatr
+sudo apt update
+sudo apt upgrade -y
+sudo apt autoremove
+ll
+cd .config/
+ll
+cd autostart/
+ll
+cd ..
+ll
+cd caja
+ll
+cd ..
+ll
+cd ..
+ll
+nano .bashrc 
+py
+python3
+python3 --version
+nano .bashrc 
+touch .bash_aliases
+nano .bash_aliases 
+nano .bashrc 
+nano .bash_aliases 
+nano .bashrc 
+py
+./bash_aliases
+ll
+nano .bash_history 
+cd google-drive/
+ll
+cd ..
+nano .sudo_as_admin_successful 
+git init
+sudo apt install git
+git init
+ll
+cd .git/
+ll
+nano config 
+cd ..
+ll
+cd .config/
+ll
+cd ..
+ll
+git config --global alias.co checkout
+ll
+nano .gitconfig 
+git config --global alias.br branch
+nano .gitconfig 
+cat .gitconfig 
+git ls
+git st
+ll
+git add .bash_aliases .bash_history .gitconfig 
+git log
+git ci
+git config --global user.email "mattias.ahle@gmail.com"
+git config --global user.name "Mattias Ahle"
+cat .gitconfig 
+git st
+git add .gitconfig 
+git st
+git ci
+git st
+git log
+git br
+git br -vv
+git br -vva
