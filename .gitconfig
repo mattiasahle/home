@@ -1,8 +1,14 @@
+[user]
+	name = Mattias Ahle
+	email = mattias.ahle@gmail.com
+[merge]
+	log = true
+[rebase]
+	autoSquash = true
+[pull]
+	rebase = true
 [alias]
 	co = checkout
 	br = branch
 	ci = commit
 	st = status
-[user]
-	email = mattias.ahle@gmail.com
-	name = Mattias Ahle

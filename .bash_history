@@ -149,3 +149,79 @@ git log
 git br
 git br -vv
 git br -vva
+ll
+nano .bashrc
+source .bashrc
+nano .bashrc
+cd Pictures/
+git st
+xs ..
+cd ..
+git st
+git add .bashrc 
+git st
+git add .bash_history 
+git st
+git ci
+git log
+nano .bash_logout 
+cd Pictures/
+ll
+cd ..
+ll
+cd Videos/
+ll
+cd ..
+ll
+git st
+nano .profile 
+sudo apt update
+sudo apt list --upgradable
+sudo apt upgrade -y
+ll
+git log
+cd Downloads/
+ll
+cd ..
+cd Desktop/
+ll
+sha256 icaclient_23.2.0.10_amd64.deb 
+sha256sum icaclient_23.2.0.10_amd64.deb 
+sha256sum icaclient_23.2.0.10_amd64.deb > downloaded.txt
+ll
+cat downloaded.txt 
+nano downloaded.txt 
+touch homepage.txt
+nano homepage.txt 
+cat downloaded.txt 
+nano homepage.txt 
+nano downloaded.txt 
+cmp downloaded.txt homepage.txt 
+touch del.txt
+nano del.txt 
+cmp del.txt homepage.txt 
+cmp homepage.txt downloaded.txt 
+ll
+rm del.txt downloaded.txt homepage.txt 
+ll
+sudo dpkg -i icaclient_23.2.0.10_amd64.deb 
+sudo dkpg
+sudo dkpg -h
+sudo apt -h
+sudo apt autoclean
+sudo apt autoremove
+sudo apt clean
+sudo apt held
+ll
+sudo apt -h
+sudo apt remove citrix
+ll
+cd google-drive/
+ll
+cd ..
+ll
+cd .ICAClient/
+ll
+cd ..
+ll
+sudo apt install google-chrome
