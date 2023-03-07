@@ -225,3 +225,50 @@ ll
 cd ..
 ll
 sudo apt install google-chrome
+ping 172.25.9.43
+ping 10.88.129.182
+git s
+git st
+cd
+nano .gitconfig 
+git st
+git add .bash_history .gitconfig 
+git commit "Align .gitconfig with Axis settings"
+git commit -m "Align .gitconfig with Axis settings"
+git push
+git remote add origin git@github.com:mattiasahle/home.git
+git push -u origin master
+ll
+.ssh/
+cd .ssh/
+ll
+$ ssh-keygen -t ed25519 -C "mattias.ahle@gmail.com"
+sudo apt install ssh-keygen
+ssh-keygen -t ed25519 -C "mattias.ahle@gmail.com"
+ll
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+cat id_ed25519.pub 
+cd ..
+ll
+git st
+git push
+git push --set-upstream origin master
+gcc --version
+gedit .bashrc 
+sudo nano .bashrc 
+ll
+sudo nano .bashrc 
+source .bashrc 
+ll
+sudo nano .bashrc 
+source .bashrc 
+ll
+source .bashrc 
+sudo nano .bashrc 
+source .bashrc 
+touch .inputrc
+sudo nano .inputrc 
+source .inputrc 
+sudo nano .inputrc 
+ll
