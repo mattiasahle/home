@@ -122,3 +122,9 @@ parse_git_branch() {
 }
 
 export PS1="\u@\h \[\e[32m\]\w \[\e[91m\]\$(parse_git_branch)\[\e[00m\]$ "
+
+# Set title to tab
+# Added by Mattias 2023-10-25
+# Got it from Johan Ekström
+alias ttt='termtitle'
+termtitle() { printf "\033]0;$*\007"; }
