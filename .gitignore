@@ -1,5 +1,7 @@
+# Ignore everything...
 *
 
+# ...but:
 !.bash_aliases
 !.bash_history
 !.bashrc
