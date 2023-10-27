@@ -137,13 +137,14 @@ parse_git_branch() {
 # Added by: Mattias 2023-10-27
 # Author: Mattias and the Internet
 # Last update: Mattias 2023-10-27
-export PS1="\e[1;32m\u@\h \e[1;34m\w \e[91m\$(parse_git_branch)\e[1;32m$\e[m "
+export PS1="\e[1;32m\u@\h \e[1;34m\w \e[0;91m\$(parse_git_branch)\e[1;32m$\e[m "
 
 
+# Terminal Tab Title (TTT)
 # Set title to terminal tab
 # Added by: Mattias 2023-10-25
 # Author: Johan Ekström
 # Last update: Mattias 2023-10-27
 # Usage: ttt My title
-alias ttt='termtitle'
-termtitle() { printf "\033]0;$*\007"; }
+alias ttt='set_ttt'
+set_ttt() { printf "\033]0;$*\007"; }
