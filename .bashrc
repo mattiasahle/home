@@ -141,7 +141,7 @@ export PS1="\e[1;32m\u@\h \e[1;34m\w \e[0;91m\$(parse_git_branch)\e[1;32m$\e[m "
 
 
 # Terminal Tab Title (TTT)
-# Set title to terminal tab
+# Set a title of your chosing to the terminal tab
 # Added by: Mattias 2023-10-25
 # Author: Johan Ekström
 # Last update: Mattias 2023-10-27
