@@ -1,11 +1,8 @@
 alias py='python3'
 
-# Terminal Title Text (TTT)
-# Set a title of your chosing to the terminal tab
-# Added by: Mattias 2023-10-25
-# Author: Johan Ekström
-# Last update: Mattias 2023-12-21
-# Usage: ttt My title
-ttt() {
-    printf "\033]0;$*\007"
-}
+# Sort by filesize
+alias lt='ls -la --human-readable --size -1 -S --classify'
+
+# Create and activate a Python virtual environment
+alias ve='python3 -m venv ./venv'
+alias va='source ./venv/bin/activate'

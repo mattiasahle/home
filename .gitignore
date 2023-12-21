@@ -3,6 +3,7 @@
 
 # ...but:
 !.bash_aliases
+!.bash_functions
 !.bash_history
 !.bashrc
 !.gitconfig

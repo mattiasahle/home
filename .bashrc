@@ -103,6 +103,10 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+if [ -f ~/.bash_functions ]; then
+    . ~/.bash_functions
+fi
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -113,11 +117,6 @@ if ! shopt -oq posix; then
         . /etc/bash_completion
     fi
 fi
-
-# Parse git branch function
-parse_git_branch() {
-    git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
-}
 
 # Set shell prompt appearance
 # Added by: Mattias 2023-10-27
