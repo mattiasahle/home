@@ -12,3 +12,5 @@
 	br = branch
 	ci = commit
 	st = status
+	lg = log --graph --stat --decorate
+	ls = "!git status; git --no-pager log --date=short --pretty='format:%C(auto)%h%d %s %Cgreen(%ae %cd)%Creset' -20; echo"
