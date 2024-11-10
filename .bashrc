@@ -122,4 +122,4 @@ fi
 # Added by: Mattias 2023-10-27
 # Author: Mattias and the Internet
 # Last update: Mattias 2023-12-18
-export PS1="\n\e[1;32m\u@\h \e[1;34m\w \e[0;91m\$(parse_git_branch)\e[1;32m$\e[m "
+export PS1="\e[1;32m\u@\h \e[1;34m\w \e[0;91m\$(parse_git_branch)\e[1;32m$\e[m "
